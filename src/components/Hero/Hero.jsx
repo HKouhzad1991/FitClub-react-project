@@ -16,12 +16,16 @@ const Hero = () => {
 
       {/* hero heading */}
       <div className="hero-text">
-      <div className="span">Shape</div>
-      <div className="span">Your</div>
+        <div>
+          <span className="stroke-text">Shape</span>
+          <span>Your</span>
+        </div>
+        <div>
+        <span>ideal body</span>
+        </div>
       </div>
-      <div className="span">Ideal Body</div>
-      <div className="right-h"></div>
-    </div>
+      <div className="right-h">right side</div>
+      </div>
   );
 };
 
