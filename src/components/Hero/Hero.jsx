@@ -15,6 +15,11 @@ const Hero = () => {
       </div>
 
       {/* hero heading */}
+      <div className="hero-text">
+      <div className="span">Shape</div>
+      <div className="span">Your</div>
+      </div>
+      <div className="span">Ideal Body</div>
       <div className="right-h"></div>
     </div>
   );
