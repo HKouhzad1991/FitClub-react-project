@@ -7,14 +7,15 @@ const Hero = () => {
     <div className="hero">
       <div className="left-h">
         <Header />
-
+        {/* the best ad */}
         <div className="the-best-ad">
           <div></div>
-
-          <span>The Best Fittnes Club In The Town </span>
+          <span>The Best fitness Club In The Town </span>
         </div>
       </div>
-      <div className="right-h">right side</div>
+
+      {/* hero heading */}
+      <div className="right-h"></div>
     </div>
   );
 };
