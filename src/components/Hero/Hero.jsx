@@ -30,19 +30,24 @@ const Hero = () => {
         </div>
 
         {/* figures */}
-      </div>
-      <div className="figuers">
-        <div>
-          <span>+104</span>
-          <span>expert coaches</span>
+        <div className="figuers">
+          <div>
+            <span>+104</span>
+            <span>expert coaches</span>
+          </div>
+          <div>
+            <span>+978</span>
+            <span>members joined</span>
+          </div>
+          <div>
+            <span>+50</span>
+            <span>fitness programs</span>
+          </div>
         </div>
-        <div>
-          <span>+978</span>
-          <span>members joined</span>
-        </div>
-        <div>
-          <span>+50</span>
-          <span>fitness programs</span>
+        {/* hero button */}
+        <div className="hero-button">
+          <button className="btn">Get Started</button>
+          <button className="btn">Learn More</button>
         </div>
       </div>
       <div className="right-h">right side</div>
