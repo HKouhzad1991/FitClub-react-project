@@ -124,6 +124,11 @@
 
 }
 
+.heart-rate>img {
+    width: 2rem;
+}
+
+
 .heart-rate>span:nth-child(2) {
     color: var(--gray);
 }
