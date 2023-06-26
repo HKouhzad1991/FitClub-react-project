@@ -176,6 +176,7 @@
 
 .calories>div>:nth-child(1) {
     color: var(--gray);
+    
 }
 
 .calories>div>:nth-child(2) {
