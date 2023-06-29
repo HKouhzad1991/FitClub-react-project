@@ -48,12 +48,17 @@
     line-height: 22px;
 }
 
-.join-now {  
+.join-now {
     display: flex;
     align-items: center;
     gap: 2rem;
 }
 
-.join-now>img{
+.join-now>img {
     width: 1rem;
+}
+
+.category:hover {
+    background: var(--planCard);
+    cursor: pointer;
 }
