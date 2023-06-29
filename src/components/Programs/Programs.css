@@ -37,3 +37,23 @@
     height: 2rem;
     fill: white;
 }
+
+.category>:nth-child(2) {
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.category>:nth-child(3) {
+    font-size: 1rem;
+    line-height: 22px;
+}
+
+.join-now {  
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+
+.join-now>img{
+    width: 1rem;
+}
