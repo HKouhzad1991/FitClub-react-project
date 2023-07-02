@@ -26,19 +26,19 @@ const Reasons = () => {
         </div>
         <div></div>
         <div className="details-r">
-          <img src="" alt=""></img>
+          <img src={tick} alt=""></img>
           <span></span>
         </div>
         <div>
-          <img src="" alt="" />
+          <img src={tick} alt="" />
           <span></span>
         </div>
         <div>
-          <img src="" alt="" />
+          <img src={tick} alt="" />
           <span></span>
         </div>
         <div>
-          <img src="" alt="" />
+          <img src={tick} alt="" />
           <span></span>
         </div>
       </div>
