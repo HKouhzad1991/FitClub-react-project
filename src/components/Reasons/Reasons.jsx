@@ -27,19 +27,19 @@ const Reasons = () => {
         <div></div>
         <div className="details-r">
           <img src={tick} alt=""></img>
-          <span></span>
+          <span>OVER 140+ EXPERT COACHES</span>
         </div>
         <div>
           <img src={tick} alt="" />
-          <span></span>
+          <span>TRAIN SMARTER AND FASTER THAN BEFORE</span>
         </div>
         <div>
           <img src={tick} alt="" />
-          <span></span>
+          <span>I FREE PROGRAM FOR NEW MEMBER</span>
         </div>
         <div>
           <img src={tick} alt="" />
-          <span></span>
+          <span>RELIABLE PARTNERS</span>
         </div>
       </div>
     </div>
