@@ -1,4 +1,5 @@
 import React from "react";
+import { plansData } from "../../data/plansData";
 import "./Plans.css";
 const Plans = () => {
   return (
@@ -8,6 +9,11 @@ const Plans = () => {
         <span>YOUR JOURNEY</span>
         <span className="stroke-text">NOW WITH US</span>
       </div>
+
+      {/* plans card */}
+      
+      <div className="plans"></div>
+
     </div>
   );
 };
