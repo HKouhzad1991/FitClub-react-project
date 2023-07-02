@@ -25,7 +25,7 @@ const Reasons = () => {
           <span> choose us?</span>
         </div>
         <div></div>
-        <div>
+        <div className="details-r">
           <img src="" alt=""></img>
           <span></span>
         </div>
