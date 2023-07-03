@@ -11,15 +11,23 @@ const Plans = () => {
       </div>
 
       {/* plans card */}
-      
-      <div className="plans">
-        {plansData.map((plan, i)=>(
-          <div className="plan">
-          {plan.icon}
-          </div>
-  ))}
-      </div>
 
+      <div className="plans">
+        {plansData.map((plan, i) => (
+          <div className="plan" key={i}>  
+            {plan.icon}
+            <span>{plan.name}</span>
+            <span>$ {plan.price}</span>
+            <div className="features">
+              {plan.features.map((feature, i) => (
+                <div className="feature">
+                <img src="" alt="" />
+                </div>
+            ))} 
+            </div>
+          </div>
+        ))}
+      </div>
     </div>
   );
 };
