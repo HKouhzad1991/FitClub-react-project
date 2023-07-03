@@ -1,6 +1,8 @@
 import React, { useState } from "react";
 import "./Testimonials.css";
 import { testimonialsData } from "../../data/testimonialsData";
+import rightArrow from "../../assets/rightArrow.png";
+import leftArrow from "../../assets/leftArrow.png";
 
 const Testimonials = () => {
   const [selected, setSelected] = useState(0);
@@ -20,11 +22,12 @@ const Testimonials = () => {
         </span>
       </div>
       <div className="right-t">
-              <img src={testimonialsData[selected].image} alt="" />
-              <div className="arrows">
-              <img src={leftarrow} alt="" />
-              </div>
-          </div>
+        <img src={testimonialsData[selected].image} alt="" />
+        <div className="arrows">
+          <img src={leftArrow} alt="" />
+          <img src={rightArrow} alt="" />
+        </div>
+      </div>
     </div>
   );
 };
