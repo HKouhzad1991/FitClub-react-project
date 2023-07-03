@@ -19,7 +19,7 @@
 .plan {
     display: flex;
     flex-direction: column;
-    background-color: var(--caloryCard);
+    background: var(--caloryCard);
     justify-content: center;
     gap: 2rem;
     color: white;
@@ -31,8 +31,6 @@
 .plan:nth-child(2) {
     background: var(--planCard);
     transform: scale(1.1);
-
-
 }
 
 .plan>svg {
@@ -66,4 +64,8 @@
     display: flex;
     align-items: center;
     gap: 1rem;
+}
+
+.feature>img {
+    width: 1.3rem;
 }
