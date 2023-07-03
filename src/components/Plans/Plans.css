@@ -18,6 +18,12 @@
 
 }
 
+.plan:hover {
+    background-color: rgb(247, 177, 55);
+}
+
+
+
 .plan {
     display: flex;
     flex-direction: column;
@@ -33,6 +39,10 @@
 .plan:nth-child(2) {
     background: var(--planCard);
     transform: scale(1.1);
+}
+
+.plan:nth-child(2):hover {
+    background: rgb(247, 177, 55);
 }
 
 .plan>svg {
