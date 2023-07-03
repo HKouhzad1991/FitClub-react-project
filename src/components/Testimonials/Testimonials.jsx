@@ -25,8 +25,9 @@ const Testimonials = () => {
               <div></div>
               <div></div>
         <img src={testimonialsData[selected].image} alt="" />
-        <div className="arrows">
-          <img src={leftArrow} alt="" />
+              <div className="arrows">
+                  
+          <img  onClick={} src={leftArrow} alt="" />
           <img src={rightArrow} alt="" />
         </div>
       </div>
