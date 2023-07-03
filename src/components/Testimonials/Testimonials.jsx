@@ -3,7 +3,7 @@ import "./Testimonials.css";
 import { testimonialsData } from "../../data/testimonialsData";
 
 const Testimonials = () => {
-        const []
+        const [selected , setSelected] = React.useState()
   return (
     <div className="Testimonials">
       <div className="left-t">
