@@ -23,5 +23,11 @@
     justify-content: center;
     gap: 2rem;
     color: white;
+    padding: 1.5rem;
+    width: 15rem;
 
+}
+
+.plan:nth-child(2){
+    
 }
