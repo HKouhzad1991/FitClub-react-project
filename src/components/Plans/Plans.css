@@ -14,6 +14,7 @@
     justify-content: center;
     gap: 3.5rem;
     margin-top: 4rem;
+    margin-bottom: 4rem;
 
 }
 
@@ -71,10 +72,10 @@
     width: 1.3rem;
 }
 
-.plans>:nth-child(2)>svg{
+.plans>:nth-child(2)>svg {
     fill: white
 }
 
-.plans>:nth-child(2)>button{
+.plans>:nth-child(2)>button {
     color: orange;
 }
