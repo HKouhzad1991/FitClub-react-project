@@ -12,7 +12,13 @@ const Plans = () => {
 
       {/* plans card */}
       
-      <div className="plans"></div>
+      <div className="plans">
+        {plansData.map((plan, i)=>(
+          <div className="plan">
+          <plan className="icon"></plan>
+          </div>
+  ))}
+      </div>
 
     </div>
   );
