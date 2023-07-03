@@ -34,7 +34,16 @@
     line-height: 40px;
 }
 
-.right-t{
+.right-t {
     flex: 1;
     position: relative;
+}
+
+.right-t>img {
+    position: absolute;
+    width: 17rem;
+    height: 20rem;
+    object-fit: cover;
+    right: 8rem;
+    top: 2rem;
 }
