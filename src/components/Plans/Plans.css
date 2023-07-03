@@ -28,6 +28,8 @@
 
 }
 
-.plan:nth-child(2){
-    
+.plan:nth-child(2) {
+    background: var(--planCard);
+    transform: scale(1.1);
+
 }
