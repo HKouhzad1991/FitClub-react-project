@@ -13,7 +13,8 @@ const Testimonials = () => {
         <span>say about us</span>
         <span>{testimonialsData[selected].review}</span>
         <span>
-          <span></span>
+          <span style={{color:'var(--orange)'}}>{testimonialsData[selected].name}</span>
+          {""}-{testimonialsData[selected].status}
         </span>
       </div>
       <div className="right-t"></div>
