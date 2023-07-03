@@ -3,6 +3,7 @@ import "./Testimonials.css";
 import { testimonialsData } from "../../data/testimonialsData";
 
 const Testimonials = () => {
+        const []
   return (
     <div className="Testimonials">
       <div className="left-t">
