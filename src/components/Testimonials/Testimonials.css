@@ -47,3 +47,38 @@
     right: 8rem;
     top: 2rem;
 }
+
+.right-t>:nth-child(1) {
+    position: absolute;
+    height: 20rem;
+    width: 17rem;
+    border: 2px solid orange;
+    background-color: transparent;
+    right: 9rem;
+    top: 0.9rem;
+}
+
+.right-t>:nth-child(2) {
+    position: absolute;
+    height: 19rem;
+    width: 17rem;
+    top: 4rem;
+    background: var(--planCard);
+    right: 6rem;
+
+}
+
+.arrows {
+    display: flex;
+    gap: 1rem;
+    position: absolute;
+    bottom: 1rem;
+    left: 3rem;
+
+}
+
+.arrows>img {
+    width: 1.5rem;
+    cursor: pointer;
+    
+}
