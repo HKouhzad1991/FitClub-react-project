@@ -15,7 +15,7 @@ const Plans = () => {
       <div className="plans">
         {plansData.map((plan, i)=>(
           <div className="plan">
-          <plan className="icon"></plan>
+          {plan.icon}
           </div>
   ))}
       </div>
