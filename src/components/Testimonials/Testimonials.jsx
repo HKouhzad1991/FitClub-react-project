@@ -29,8 +29,8 @@ const Testimonials = () => {
           <img
             onClick={() => {
               selected === 0
-                ? setSelected(tlength - 1)
-                : setSelected((prev) => prev - 1)
+                ? setSelected(tLength - 1)
+                : setSelected((prev) => prev - 1);
             }}
             src={leftArrow}
             alt=""
