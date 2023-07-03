@@ -1,7 +1,6 @@
-import React , {useState} from "react";
+import React, { useState } from "react";
 import "./Testimonials.css";
 import { testimonialsData } from "../../data/testimonialsData";
-
 
 const Testimonials = () => {
   const [selected, setSelected] = useState(0);
@@ -13,6 +12,9 @@ const Testimonials = () => {
         <span className="stroke-text">What they</span>
         <span>say about us</span>
         <span>{testimonialsData[selected].review}</span>
+        <span>
+          <span></span>
+        </span>
       </div>
       <div className="right-t"></div>
     </div>
