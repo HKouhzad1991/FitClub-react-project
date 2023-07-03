@@ -1,11 +1,8 @@
-import React from 'react'
+import React from "react";
+import "./Join.css";
 
 const Join = () => {
-  return (
-    <div>
-      
-    </div>
-  )
-}
+  return <div></div>;
+};
 
-export default Join
+export default Join;
