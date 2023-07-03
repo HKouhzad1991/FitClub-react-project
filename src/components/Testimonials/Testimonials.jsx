@@ -3,16 +3,15 @@ import "./Testimonials.css";
 import { testimonialsData } from "../../data/testimonialsData";
 
 const Testimonials = () => {
-        const [selected , setSelected] = React.useState()
+  const [selected, setSelected] = useState(0);
+  const tLength = testimonialsData.atlength;
   return (
     <div className="Testimonials">
       <div className="left-t">
         <span>Testimonials</span>
         <span className="stroke-text">What they</span>
-              <span>say about us</span>
-              <span>
-              {testimonialsData[0].review}
-              </span>
+        <span>say about us</span>
+        <span>{testimonialsData[0].review}</span>
       </div>
       <div className="right-t"></div>
     </div>
