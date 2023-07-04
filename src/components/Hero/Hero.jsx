@@ -10,6 +10,7 @@ import { type } from "@testing-library/user-event/dist/type";
 
 const Hero = () => {
   const transition = { type: "spring", duration: 3 };
+  const mobile = window.innerWidth
   return (
     <div className="hero">
       <div className="blur hero-blur"></div>
