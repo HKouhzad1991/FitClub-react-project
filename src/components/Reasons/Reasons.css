@@ -83,12 +83,24 @@
     height: 2rem;
 }
 
-.partners{
+.partners {
     display: flex;
     gap: 1rem;
 }
 
-.partners>img{
+.partners>img {
     width: 3.5rem;
+
+}
+
+@media screen and (max-width: 768px) {
+    .Reasons {
+        flex-direction: column;
+    }
+
+    .left-r {
+        grid-auto-rows: auto;
+        overflow: hidden;
+    }
 
 }
