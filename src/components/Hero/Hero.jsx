@@ -7,6 +7,7 @@ import Heart from "../../assets/heart.png";
 import Calories from "../../assets/calories.png";
 import { motion } from "framer-motion";
 import { type } from "@testing-library/user-event/dist/type";
+import NumberCounter from "number-counter";
 
 const Hero = () => {
   const transition = { type: "spring", duration: 3 };
