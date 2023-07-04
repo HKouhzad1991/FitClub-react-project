@@ -3,7 +3,26 @@ import "./Join.css";
 import emailjs from "@emailjs/browser";
 
 const Join = () => {
-  const form = useRef();
+  const form = useRef()
+   const sendEmail = (e) => {
+     e.preventDefault();
+
+     emailjs
+       .sendForm(
+         "YOUR_SERVICE_ID",
+         "YOUR_TEMPLATE_ID",
+         form.current,
+         "YOUR_PUBLIC_KEY"
+       )
+       .then(
+         (result) => {
+           console.log(result.text);
+         },
+         (error) => {
+           console.log(error.text);
+         }
+       );
+   };
   return (
     <div className="Join" id="join-us">
       <div className="left-j">
