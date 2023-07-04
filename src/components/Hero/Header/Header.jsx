@@ -9,13 +9,20 @@ const Header = () => {
   return (
     <div className="header">
       <img src={Logo} alt="" className="logo" />
-      <ul className="header-menu">
-        <li>Home</li>
-        <li>Programs</li>
-        <li>Why Us</li>
-        <li>Plans</li>
-        <li>Testimonials</li>
-      </ul>
+
+      {menuOpened === false && mobile === true ? (
+        <div>
+          <img src={Bars} alt="" />
+        </div>
+      ) : (
+        <ul className="header-menu">
+          <li>Home</li>
+          <li>Programs</li>
+          <li>Why Us</li>
+          <li>Plans</li>
+          <li>Testimonials</li>
+        </ul>
+      )}
     </div>
   );
 };
