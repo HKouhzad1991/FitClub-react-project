@@ -28,11 +28,11 @@ const Header = () => {
         </div>
       ) : (
         <ul className="header-menu">
-          <li onClick={()}>Home</li>
-          <li onClick={()}>Programs</li>
-          <li onClick={()}>Why Us</li>
-          <li onClick={()}>Plans</li>
-          <li onClick={()}>Testimonials</li>
+          <li onClick={() => setMenuOpened(false)}>Home</li>
+          <li onClick={() => setMenuOpened(false)}>Programs</li>
+          <li onClick={() => setMenuOpened(false)}>Why Us</li>
+          <li onClick={() => setMenuOpened(false)}>Plans</li>
+          <li onClick={() => setMenuOpened(false)}>Testimonials</li>
         </ul>
       )}
     </div>
