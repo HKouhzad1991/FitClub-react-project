@@ -19,3 +19,8 @@
     border-radius: 20%;
     margin: -10px 0;
 }
+
+.left-j>div{
+    display: flex;
+    gap: 1rem;
+}
