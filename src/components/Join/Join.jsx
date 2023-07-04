@@ -44,7 +44,7 @@ const Join = () => {
           onSubmit={sendEmail}>
           <input
             type="email"
-            name="user_email" 
+            name="user_email"
             placeholder="Enter Your Email address"
           />
           <button className="btn btn-j">Join Now</button>
