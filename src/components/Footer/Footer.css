@@ -25,3 +25,12 @@
     height: 4rem;
     cursor: pointer;
 }
+
+.social-links>img:hover {
+    background: rgb(247, 177, 55);
+
+}
+
+.logo-f>img {
+    width: 20rem;
+}
