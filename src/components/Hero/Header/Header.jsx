@@ -16,6 +16,9 @@ const Header = () => {
             backgroundColor: "var(--appColor)",
             padding: "0.4rem",
             borderRadius: "5px",
+          }}
+          onClick={() => {
+            setMenuOpened(true);
           }}>
           <img
             src={Bars}
