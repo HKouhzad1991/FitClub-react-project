@@ -3,10 +3,10 @@
 }
 
 .Footer-container>hr {
-   border: 1px solid var(--lightgray);
+    border: 1px solid var(--lightgray);
 }
 
-.footer{
+.footer {
     padding: 1rem 2rem;
     display: flex;
     flex-direction: column;
@@ -15,7 +15,13 @@
     height: 20rem;
 }
 
-.social-links{
+.social-links {
     display: flex;
     gap: 4rem;
+}
+
+.social-links>img {
+    width: 4rem;
+    height: 4rem;
+    cursor: pointer;
 }
