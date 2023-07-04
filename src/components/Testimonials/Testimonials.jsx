@@ -27,7 +27,9 @@ const Testimonials = () => {
       </div>
       <div className="right-t">
         <motion.div
-        initial=
+          initial={{ opacity: 0, x: -100 }}  
+          transition={{ ...transition, duration: 2 }}
+          whileInView={{opacity: 1 , x: 0}}
         ></motion.div>
         <div></div>
         <img src={testimonialsData[selected].image} alt="" />
