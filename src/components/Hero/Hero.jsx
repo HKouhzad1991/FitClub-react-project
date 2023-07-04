@@ -76,8 +76,8 @@ const Hero = () => {
         {/* hero images */}
         <img src={hero_image} alt="" className="hero-image" />
         <motion.img
-          initial={{ right: "37rem" }}
-          whileInView={{ right: "28rem" }}
+          initial={{ right: "11rem" }}
+          whileInView={{ right: "20rem" }}
           transition={transition}
           src={hero_image_back}
           alt=""

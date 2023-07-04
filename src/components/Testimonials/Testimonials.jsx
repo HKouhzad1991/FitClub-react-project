@@ -5,6 +5,8 @@ import rightArrow from "../../assets/rightArrow.png";
 import leftArrow from "../../assets/leftArrow.png";
 
 const Testimonials = () => {
+
+  const transition= {type:"spring" , duration}
   const [selected, setSelected] = useState(0);
   const tLength = testimonialsData.tlength;
   return (
