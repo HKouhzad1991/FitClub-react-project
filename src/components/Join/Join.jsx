@@ -2,7 +2,11 @@ import React from "react";
 import "./Join.css";
 
 const Join = () => {
+  const form = () => {
+    
+  }
   return (
+
     <div className="Join" id="join-us">
       <div className="left-j">
         <hr />
