@@ -6,7 +6,18 @@ import Linkedin from "../../assets/linkedin.png";
 import Logo from "../../assets/logo.png";
 
 const Footer = () => {
-  return <div className="Footer-container"></div>;
+    return (
+      <div className="Footer-container">
+        <hr />
+
+        <div className="footer">
+          <img src={Github} alt="" />
+          <img src={Instagram} alt="" />
+          <img src={Linkedin} alt="" />
+          <img src={Logo} alt="" />
+        </div>
+      </div>
+    );
 };
 
 export default Footer;
