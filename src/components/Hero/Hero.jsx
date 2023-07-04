@@ -18,7 +18,8 @@ const Hero = () => {
         <div className="the-best-ad">
           <motion.div
             initial={{ left: "238px" }}
-            whileInView={{ left: "8px" }}></motion.div>
+            whileInView={{ left: "8px" }}
+            transition={transition}></motion.div>
           <span>The Best fitness Club In The Town </span>
         </div>
         {/* hero heading */}
