@@ -63,7 +63,7 @@ const Hero = () => {
       </div>
       <div className="right-h">
         <button className="btn">Join now</button>
-        <motion.div className="heart-rate">
+        <motion.div transition={transition} className="heart-rate">
           <img src={Heart} alt="" />
           <span>Heart Rate</span>
           <span>116 bpm</span>
