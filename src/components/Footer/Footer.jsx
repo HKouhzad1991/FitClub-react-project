@@ -1,11 +1,12 @@
-import React from 'react'
-import './Footer.css'
-const Footer = () => {
-  return (
-    <div>
-      footer
-    </div>
-  )
-}
+import React from "react";
+import "./Footer.css";
+import Github from "../../assets/github.png";
+import Instagram from "../../assets/instagram.png";
+import Linkedin from "../../assets/linkedin.png";
+import Logo from "../../assets/logo.png";
 
-export default Footer
+const Footer = () => {
+  return <div className="Footer-container"></div>;
+};
+
+export default Footer;
