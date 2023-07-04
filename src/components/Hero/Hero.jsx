@@ -8,6 +8,7 @@ import Calories from "../../assets/calories.png";
 import { motion } from "framer-motion";
 
 const Hero = () => {
+  const transition ={type:"spring" , duration:'3'}
   return (
     <div className="hero">
       <div className="blur hero-blur"></div>
@@ -15,7 +16,8 @@ const Hero = () => {
         <Header />
         {/* the best ad */}
         <div className="the-best-ad">
-          <div></div>
+          <motion.div>
+          </motion.div>
           <span>The Best fitness Club In The Town </span>
         </div>
         {/* hero heading */}
