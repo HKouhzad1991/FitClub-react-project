@@ -45,15 +45,23 @@ const Hero = () => {
         {/* figures */}
         <div className="figuers">
           <div>
-            <span>+104</span>
+            <span>
+              <NumberCounter end={140} start={70} delay="4" preFix="+" />
+            </span>
             <span>expert coaches</span>
           </div>
           <div>
-            <span>+978</span>
+            <span>
+              {" "}
+              <NumberCounter end={140} start={70} delay="4" preFix="+" />
+            </span>
             <span>members joined</span>
           </div>
           <div>
-            <span>+50</span>
+            <span>
+              {" "}
+              <NumberCounter end={140} start={70} delay="4" preFix="+" />
+            </span>
             <span>fitness programs</span>
           </div>
         </div>
