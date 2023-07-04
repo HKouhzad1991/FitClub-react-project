@@ -12,7 +12,7 @@ const Join = () => {
         "service_olvpt5x",
         "template_jktt6br",
         form.current,
-        "YOUR_PUBLIC_KEY"
+        "lgD-ZzFurx2qcwN7z"
       )
       .then(
         (result) => {
