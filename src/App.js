@@ -15,7 +15,7 @@ function App() {
       <Plans />
       <Testimonials />
       <Join />
-      <Footer />
+      <Footer /> 
     </div>
   );
 }
