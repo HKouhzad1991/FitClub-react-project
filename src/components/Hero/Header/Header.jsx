@@ -12,7 +12,11 @@ const Header = () => {
 
       {menuOpened === false && mobile === true ? (
         <div>
-          <img src={Bars} alt="" />
+          <img
+            src={Bars}
+            alt=""
+            style={{ width: "1.5rem", height: "1.5rem" }}
+          />
         </div>
       ) : (
         <ul className="header-menu">
