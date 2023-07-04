@@ -1,4 +1,4 @@
-.Testimonials {
+.testimonials {
     display: flex;
     gap: 1rem;
     padding: 0 2rem;
@@ -86,4 +86,12 @@
 .arrows>img:hover {
     background: orange;
 
+}
+
+@media screen and (max-width: 768px) {
+    .testimonials {
+        flex-direction: column;
+    }
+
+    .left-t>:nth-child(2), left-t>:nth-child(3) {}
 }
