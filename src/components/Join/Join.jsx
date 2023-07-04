@@ -1,10 +1,8 @@
-import React from "react";
+import React, { useRef } from "react";
 import "./Join.css";
 
 const Join = () => {
-  const form = () => {
-    
-  }
+  const form = useRef(null);
   return (
 
     <div className="Join" id="join-us">
