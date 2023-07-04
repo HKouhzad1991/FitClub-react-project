@@ -15,6 +15,13 @@
     height: 20rem;
 }
 
+.footer-blur {
+    width: 30rem;
+    height: 30rem;
+    left: 24rem;
+    
+}
+
 .social-links {
     display: flex;
     gap: 4rem;
