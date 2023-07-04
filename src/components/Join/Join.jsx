@@ -10,7 +10,7 @@ const Join = () => {
     emailjs
       .sendForm(
         "service_olvpt5x",
-        "YOUR_TEMPLATE_ID",
+        "template_jktt6br",
         form.current,
         "YOUR_PUBLIC_KEY"
       )
